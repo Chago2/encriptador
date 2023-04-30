@@ -1,0 +1,140 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #E5E5E5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contenedor {
+    margin:auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+}
+
+.logo {
+    width: 100%;
+    float: left;
+}
+
+.logotipo {
+    margin-top: 20px;
+    float: inherit;
+    margin-left: 30px;
+}
+
+.titulo {
+    float: inherit;
+    margin-left: 55px;
+}
+
+.izquierda {
+    float: left;
+    width: 70%;
+    height: 59%;
+    border-radius: 24px;
+}
+
+.input-text {
+    float: left;
+    margin-left: 70px;
+    margin-top: 50px;
+    width: 80%;
+    height: 80%;
+    color: #0A3871;
+    border:none;
+    outline: none;
+    font-size: 32px;
+    background-color: #E5E5E5;
+}
+
+.derecha {
+    float: right;
+    width: 288px;
+    height: 550px;
+    border-radius: 24px;
+    background-color: #FFF;
+}
+
+#muneco {
+    margin-left: 15px;
+    margin-top: 20px;
+    width: 90%;
+    height: auto;
+}
+
+#texto1 {
+    margin-left: 7%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+#texto2 {
+    float: left;
+    margin-left: 30px;
+    color: #0A3871;
+    text-align: center;
+    width: 80%;
+    height: 120px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.botones {
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+}
+
+.admiracion, p {
+    margin-top: 20px;
+    float: inherit;
+    margin-left: 70px;
+    margin-right: 10px;
+}
+
+p {
+    float: none;
+    display: absolute;
+    margin-top: 19px;
+    margin-left: 10px;
+}
+
+#boton-encriptar {
+    position: static;
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 10%;
+    background-color: #0A3871;
+    color: #FFF;
+}
+
+#boton-desencriptar {
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 10%;
+    background-color: #D8DFE8;
+}
+
+#copiar {
+    margin-left: 33%;
+    margin-top: 90%;
+    padding: 24px;
+    width: 40%;
+    height: 10%;
+    background-color: #D8DFE8;
+    border-radius: 25px;
+    display: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="images/Vector.png" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <script type="text/javascript" src="script.js"></script>
+        <title>Challenge 1 - Encriptador</title>
+    </head>
+    <body>
+        <div class="contenedor">
+            <div class="logo">
+                <img class="logotipo" src="images/Vector.png">
+                <h1 class="titulo">Encriptador de mensajes</h1>
+            </div>
+            <div class="izquierda">
+               <input id="texto-usuario" class="input-text" type="text" placeholder="Ingrese el texto aquí">
+            </div>
+            <div class="derecha">
+                <img id="muneco" src="images/Muñeco.png" alt="Un niño analizando un diamante con una lupa">
+                <h1 id="texto1">Ningún mensaje fue encontrado</h1>
+                <textarea id="texto2" name="name" id="" cols="80" rows="8">Ingresa el texto que desees encriptar o desencriptar.</textarea>
+                <button id="copiar" type="button" name="button" onclick="copiar()">¡Copiar!</button>
+            </div>
+
+            <div class="botones">
+                <img class="admiracion" src="images/admiración.png" alt="Signo de exclamación"><p>Solo letras minúsculas y sin acentos</p><br>
+                <button type="button" id="boton-encriptar" name="button" onclick="encriptar()">Encriptar</button>
+                <button type="button" id="boton-desencriptar" name="button" onclick="desencriptar()">Desencriptar</button>
+            </div>
+        </div>
+        <footer>Diseñado por Mauricio Santiago Valdés Franco</footer>
+        
+    </body>
+</html>
